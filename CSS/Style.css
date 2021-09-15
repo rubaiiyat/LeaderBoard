@@ -10,7 +10,8 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container{
@@ -93,7 +94,7 @@ hr{
 
 .blog-author{
     color: #9F9F9F;
-    ;
+    
     font-size: 16px;
 }
 
@@ -101,4 +102,62 @@ hr{
     text-decoration: none;
     color:#562EFF;
 }
+
+/* Courses style */
+
+.course-banner img{
+    Width :224px;
+    Height:104px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.course-author a{
+    text-decoration: none;
+    color: #ED6B4F;
+    
+}
+
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+
+.fa-star.filled{
+    color: #FFC014;
+}
+
+.fa-star.Empty{
+    color: #AEAEAE;
+}
+.course-duration{
+    background-color: #FFE4E8;
+    color: #FF4A60;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    
+
+}
+.course{
+    border: 1px solid white;
+    align-items: center;
+    
+    border-radius: 3%;
+    padding: 5px;
+    box-shadow:  0px 10px  20px 10px rgb(243, 237, 237);
+}
+
+
+
+
 
