@@ -158,6 +158,108 @@ hr{
 }
 
 
+/* Media Queries */
+
+/* Mobile Devieces */
+
+@media only screen and (max-width:688px) {
+    
+        .container{
+        width: 100%;
+        }
+
+        .section-title{
+            text-align: center;
+        }
+
+
+    
+        .players{
+        grid-template-columns: repeat(2, 1fr);
+        
+          
+       }
+        .player{
+            flex-direction: column;
+            
+       
+        }
+
+        .blogs, .courses{
+            grid-template-columns: repeat(1, 1fr);
+            
+
+        }
+        .blog{
+            align-items: center;
+            flex-direction: row;
+
+        }
+
+        .courses{
+            justify-items: center;
+        }
+
+        .fuck{
+            align-items: center;
+        }
+}
+
+/* Tablet Devices */
+
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+
+    
+    .container{
+        width: 100%;
+        }
+
+        .section-title{
+            text-align: center;
+        }
+
+
+    
+        .players{
+        grid-template-columns: repeat(3, 1fr);
+        
+          
+       }
+       .player{
+        flex-direction: column;
+            
+       
+        }
+
+        .blogs, .courses{
+            grid-template-columns: repeat(2, 1fr);
+            
+
+        }
+        .blog{
+            align-items: center;
+            flex-direction: row;
+
+        }
+
+        .courses{
+            justify-items: center;
+        }
+
+        .fuck{
+            align-items: center;
+        }
+}
+
+
+
+
+    
+
+
+
+
 
 
 
